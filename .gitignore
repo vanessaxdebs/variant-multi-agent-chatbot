@@ -1,4 +1,23 @@
+# Raw data
+data/raw/*
+
+# Python cache
 __pycache__/
-.env
-data/raw/
 *.pyc
+*.pyo
+*.pyd
+
+# Jupyter notebooks
+notebooks/.ipynb_checkpoints/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environments
+.env/
+venv/
